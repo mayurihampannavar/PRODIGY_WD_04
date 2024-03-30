@@ -1,0 +1,162 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #002036;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.piccontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.piccentered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-frame {
+    width: 22vw; /* Adjust as needed */
+    height: 40vh; /* Adjust as needed */
+    border-radius: 50%;
+    box-shadow: 0 0 50px #00458a; /* Adjust shadow properties as needed */
+    overflow: hidden;
+}
+
+.circular-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #807f5c;
+    border-radius: 40px; /* Adding border radius */
+}
+
+
+header {
+    background-color: #000d1a;
+    color: #000d1a;
+    padding: 20px 0;
+    position: fixed; /* Fix the header position */
+    width: 100%; /* Make the header span the full width of the viewport */
+    top: 0; /* Position the header at the top of the viewport */
+    z-index: 1000; /* Ensure the header is above other content */
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: aqua;
+}
+
+header nav ul li a {
+    color: #5c978a;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #002036;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #367a99;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #002f4e;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.about-section, .projects-section, .contact-section {
+    background-color: #000d1a;
+    
+    padding: 50px 0;
+    border-radius: 40px;
+}
+
+.about-section h2, .projects-section h2, .contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    color: #000d1a;
+    background-color: #000d1a;
+    
+}
+
+.about-section h0, .projects-section h0, .contact-section h0 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    color: #002f4e;
+}
+
+.website {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #000d1a; /* Background color */
+    padding: 10px; /* Padding around the text */
+    border: 1px solid #002e4d; /* Border */
+    border-radius: 50px; /* Rounded corners */
+    width: fit-content; /* Make the width fit the content */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center the text */
+}
+
+.website a {
+    text-decoration: none; /* Remove underline from link */
+    color: #ce8d00; /* Link color */
+}
+
+
+
+.container {
+    text-align: center;
+    border-radius: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
